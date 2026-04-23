@@ -1,16 +1,18 @@
 #!/usr/bin/env bash
-# Re-convert entries listed in pdfs/.failures.txt (uses Lua filter to skip broken https/.txt images).
+# Re-convert entries listed in pdfs/.failures-retry.txt using xelatex + Lua fixes.
 set -u
 export PATH="/Library/TeX/texbin:$PATH"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT" || exit 1
 
-LIST="$ROOT/pdfs/.failures.txt"
-[ -f "$LIST" ] || { echo "Missing $LIST — run convert-md-to-pdf.sh first."; exit 1; }
+LIST="$ROOT/pdfs/.failures-retry.txt"
+[ -f "$LIST" ] || { echo "Missing $LIST"; exit 1; }
 
-ERR="$ROOT/pdfs/.pandoc-retry.stderr.log"
+LUA="$ROOT/scripts/pandoc-fix-latex.lua"
+ERR="$ROOT/pdfs/.pandoc-final.stderr.log"
+FAIL2="$ROOT/pdfs/.failures-final.txt"
 : > "$ERR"
-: > "$ROOT/pdfs/.failures-retry.txt"
+: > "$FAIL2"
 ok=0
 bad=0
 while IFS= read -r rel || [ -n "$rel" ]; do
@@ -21,12 +23,15 @@ while IFS= read -r rel || [ -n "$rel" ]; do
   dir=$(dirname "$rel")
   base=$(basename "$rel")
   mkdir -p "$(dirname "$out")"
-  if ( cd "$ROOT/$dir" && pandoc --lua-filter="$ROOT/scripts/pandoc-txt-image-safe.lua" "$base" -o "$out" ) 2>>"$ERR"; then
+  if ( cd "$ROOT/$dir" && pandoc -f markdown-raw_tex --lua-filter="$LUA" --pdf-engine=xelatex "./$base" -o "$out" ) 2>>"$ERR"; then
     ok=$((ok+1))
+    echo "  OK: $rel"
   else
-    echo "$rel" >> "$ROOT/pdfs/.failures-retry.txt"
+    echo "$rel" >> "$FAIL2"
+    echo "FAIL: $rel"
     bad=$((bad+1))
   fi
 done < "$LIST"
 
-echo "Redone: $ok ok, $bad still bad (see pdfs/.failures-retry.txt if any)."
+echo ""
+echo "Done: $ok ok, $bad failed (see pdfs/.failures-final.txt if any)."
