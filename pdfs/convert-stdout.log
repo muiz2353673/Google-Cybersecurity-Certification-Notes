@@ -1,0 +1,14 @@
+Progress: 150 files, 143 ok (14:14:18)
+Progress: 300 files, 279 ok (14:15:12)
+Progress: 450 files, 429 ok (14:15:56)
+Progress: 600 files, 575 ok (14:16:41)
+Progress: 750 files, 722 ok (14:17:34)
+Progress: 900 files, 865 ok (14:18:27)
+Progress: 1050 files, 1006 ok (14:19:23)
+Progress: 1200 files, 1154 ok (14:20:06)
+Progress: 1350 files, 1297 ok (14:20:54)
+=== done Wed Apr 22 14:21:43 BST 2026 ===
+Total: 1487  OK: 1429  Failed: 58
+Log: /Users/letterboxdistribution/letterbox main website/Google-Cybersecurity-Certification-Notes/pdfs/.conversion.log
+Pandoc stderr: /Users/letterboxdistribution/letterbox main website/Google-Cybersecurity-Certification-Notes/pdfs/.pandoc.stderr.log
+Failed list: /Users/letterboxdistribution/letterbox main website/Google-Cybersecurity-Certification-Notes/pdfs/.failures.txt

@@ -1,0 +1,75 @@
+Error producing PDF.
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 Detects malicious activity & ✓
+
+Error producing PDF.
+! LaTeX Error: Unicode character 🛡 (U+1F6E1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 🛡️🔒}
+
+Error producing PDF.
+! LaTeX Error: Too deeply nested.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112         \begin{itemize}
+
+Unknown option -n.
+Unknown option -a.
+Unknown option -m.
+Unknown option -e.
+Unknown option - .
+Unknown option -a.
+Unknown option -n.
+Try pandoc --help for more information.
+Unknown option -m.
+Try pandoc --help for more information.
+Error producing PDF.
+! Undefined control sequence.
+l.242 character. For example, \w
+
+Error producing PDF.
+! Undefined control sequence.
+l.535 method is to use “\n
+
+Error producing PDF.
+! LaTeX Error: Unicode character ● (U+25CF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.598 Human & \emph{Standard user}●
+
+Error producing PDF.
+! LaTeX Error: Too deeply nested.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325         \begin{itemize}
+
+Error producing PDF.
+! LaTeX Error: Too deeply nested.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121         \begin{itemize}
+

@@ -1,0 +1,10 @@
+VI. Sound the Alarm - Detection and Response/Week 1/III. Incident response tools.md
+README.md
+I. Foundations Of Cybersecurity/Week 1/Terms/Security Controls.md
+IV. Tools of the Trade - Linux and SQL/Week 3/Terms/-name and -iname.md
+IV. Tools of the Trade - Linux and SQL/Week 3/Terms/-mtime.md
+VII. Automate Cybersecurity Tasks with Python/Week 3/III. Regular expressions.md
+VII. Automate Cybersecurity Tasks with Python/Week 4/II. Work with files in Python.md
+V. Assets, Threats and Vulnerabilities/Week 3/II. Identify system vulnerabilities.md
+II. Play It Safe - Manage Security Risks/Week 2/IV. OWASP principles and security audits.md
+II. Play It Safe - Manage Security Risks/Week 2/I. More about frameworks and controls.md

@@ -1,0 +1,58 @@
+III. Connect and Protect - Networks and Network Security/Week 3/II. Secure networks against Denial of Service (DoS) attacks.md
+III. Connect and Protect - Networks and Network Security/Week 4/III. Network hardening.md
+III. Connect and Protect - Networks and Network Security/Week 4/Terms/Multi-Factor Authentication (MFA).md
+III. Connect and Protect - Networks and Network Security/Week 4/Terms/Salting.md
+III. Connect and Protect - Networks and Network Security/Week 4/Terms/CAPTCHA.md
+III. Connect and Protect - Networks and Network Security/Week 4/Terms/security information and event management system (SIEM).md
+III. Connect and Protect - Networks and Network Security/Week 4/Terms/next-generation firewalls (NGFWs).md
+III. Connect and Protect - Networks and Network Security/Week 2/Terms/Subnetting.md
+III. Connect and Protect - Networks and Network Security/Week 2/I. Introduction to network protocols.md
+III. Connect and Protect - Networks and Network Security/Week 2/II. System identification.md
+III. Connect and Protect - Networks and Network Security/Week 1/I. Introduction to networks.md
+III. Connect and Protect - Networks and Network Security/Week 1/II. Network communication.md
+III. Connect and Protect - Networks and Network Security/Week 1/Terms/network.md
+III. Connect and Protect - Networks and Network Security/Week 1/Terms/wireless access point.md
+III. Connect and Protect - Networks and Network Security/Week 1/Terms/OSI Model.md
+III. Connect and Protect - Networks and Network Security/Week 1/Terms/Network diagrams.md
+III. Connect and Protect - Networks and Network Security/Week 1/Terms/TCP-IP model.md
+III. Connect and Protect - Networks and Network Security/Week 1/Terms/cloud service provider (CSP).md
+III. Connect and Protect - Networks and Network Security/Week 1/Terms/Modems.md
+III. Connect and Protect - Networks and Network Security/Week 1/Terms/Servers.md
+III. Connect and Protect - Networks and Network Security/Week 1/III. Local and wide network communication.md
+VI. Sound the Alarm - Detection and Response/Week 1/III. Incident response tools.md
+README.md
+I. Foundations Of Cybersecurity/Week 3/I. Framework and controls.md
+I. Foundations Of Cybersecurity/Week 2/II. The eights CISSP security domains.md
+I. Foundations Of Cybersecurity/Week 2/Terms/Hacker Types.md
+I. Foundations Of Cybersecurity/Week 2/Terms/Malware.md
+I. Foundations Of Cybersecurity/Week 1/Terms/Security Controls.md
+IV. Tools of the Trade - Linux and SQL/Week 3/Terms/-name and -iname.md
+IV. Tools of the Trade - Linux and SQL/Week 3/Terms/-mtime.md
+IV. Tools of the Trade - Linux and SQL/Week 3/I. Navigate the Linux file system.md
+IV. Tools of the Trade - Linux and SQL/Week 4/Terms/Full outer joins.md
+IV. Tools of the Trade - Linux and SQL/Week 4/Terms/Right joins.md
+IV. Tools of the Trade - Linux and SQL/Week 4/Terms/Left joins.md
+IV. Tools of the Trade - Linux and SQL/Week 4/IV. SQL joins.md
+IV. Tools of the Trade - Linux and SQL/Week 2/II. Linux distributions.md
+IV. Tools of the Trade - Linux and SQL/Week 1/III. The user interface.md
+IV. Tools of the Trade - Linux and SQL/Week 1/II. The operating system at work.md
+IV. Tools of the Trade - Linux and SQL/Week 1/Terms/virtual machine (VM).md
+VII. Automate Cybersecurity Tasks with Python/Week 3/III. Regular expressions.md
+VII. Automate Cybersecurity Tasks with Python/Week 4/II. Work with files in Python.md
+V. Assets, Threats and Vulnerabilities/Week 3/II. Identify system vulnerabilities.md
+V. Assets, Threats and Vulnerabilities/Week 3/III. Cyber attacker mindset.md
+V. Assets, Threats and Vulnerabilities/Week 3/I. Flaws in the system.md
+V. Assets, Threats and Vulnerabilities/Week 4/I. Social engineering.md
+V. Assets, Threats and Vulnerabilities/Week 4/II. Malware.md
+V. Assets, Threats and Vulnerabilities/Week 4/IV. Threat modeling.md
+V. Assets, Threats and Vulnerabilities/Week 2/Terms/hash functions.md
+V. Assets, Threats and Vulnerabilities/Week 2/II. Encryption methods.md
+V. Assets, Threats and Vulnerabilities/Week 2/III. Authentication, authorization and accounting.md
+V. Assets, Threats and Vulnerabilities/Week 1/I. Introduction to assets.md
+V. Assets, Threats and Vulnerabilities/Week 1/III. Risk and asset security.md
+V. Assets, Threats and Vulnerabilities/Week 1/II. Digital and physical assets.md
+II. Play It Safe - Manage Security Risks/Week 4/I. Phases of incident response playbooks.md
+II. Play It Safe - Manage Security Risks/Week 2/IV. OWASP principles and security audits.md
+II. Play It Safe - Manage Security Risks/Week 2/I. More about frameworks and controls.md
+II. Play It Safe - Manage Security Risks/Week 1/Terms/Server-Side Request Forgery.md
+II. Play It Safe - Manage Security Risks/Week 1/I. More about the CISSP security domains.md
